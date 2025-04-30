@@ -16,7 +16,7 @@ export default function GlobalError({
  
   return (
     <div>
-      <h2>Something went wrong! Global Error</h2>
+      <h2 className='text-amber-600'>Something went wrong! Global Error</h2>
       <button
         onClick={
           // Attempt to recover by trying to re-render the segment
